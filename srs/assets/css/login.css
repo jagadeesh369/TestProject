@@ -1,0 +1,78 @@
+<style type="text/css">
+  html, body {
+    background: url("../images/login-bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .bolck-log {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px #8b8b8b;
+    padding: 0px;
+  }
+  .login-box  {
+    transform: translateY(50%);
+
+  }
+  .leftImg {
+    position: relative;
+  }
+  .leftImg img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+  }
+  .left-desc {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: rgba(0,115,230,0.6);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: #ffffff;
+    padding: 20px;
+  }
+  .left-desc p {
+  	color: #ffffff !important;
+  	opacity: 0.75;
+  }
+  .left-foot {
+    position: absolute;
+    bottom: 20px;
+    font-size: 14px;
+    opacity: 0.6;
+  }
+  .right-form {
+    padding: 20px 30px 30px 0px;
+  }
+  .login-title {
+    margin-bottom: 20px;
+  }
+  .login-title h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0073E6;
+  }
+  .logs-form .form-group label {
+    font-weight: normal;
+  }
+  .forgot a {
+    color: #0073E6;
+    text-align: center;
+    display: block;
+    padding: 10px 5px 5px;
+    text-decoration: underline;
+  }
+  .log-btn {
+    color: #fff;
+    background-color: #0073E6;
+    border-color: #0073E6;
+  }
+  .log-btn:hover {
+    color: #ffffff;
+  }
+</style>
